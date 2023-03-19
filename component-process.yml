@@ -4,6 +4,8 @@ metadata:
   title: Customer Enrichment
   name: customer-enrichment
   description: Enrich customer data consumed from Salesforce using Fivetran.
+  annotations:
+    backstage.io/techdocs-ref: dir:./documents/component-process
   tags:
     - python
 spec:

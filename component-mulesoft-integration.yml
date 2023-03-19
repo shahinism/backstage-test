@@ -4,6 +4,8 @@ metadata:
   title: Mulesoft Integration
   name: mulesoft-integration
   description: Consume data from Kafka topic and publish it into Salesforce.
+  annotations:
+    backstage.io/techdocs-ref: dir:./documents/component-mulesoft-integration
   tags:
     - python
 spec:

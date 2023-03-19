@@ -4,6 +4,8 @@ metadata:
   title: Customer Publish
   name: customer-publish
   description: Published processed data to Kafka.
+  annotations:
+    backstage.io/techdocs-ref: dir:./documents/component-publish
   tags:
     - python
 spec:
