@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  title: Fivetran
+  name: fivetran
+  description: Automated data movement platform.
+  tags:
+    - data-mesh
+  links:
+    - url: https://fivetran.com/docs/getting-started
+      title: Implementation & Setup Documentation | Fivetran data pipelines
+      type: getting-started
+    - url: https://fivetran.com/docs/getting-started/fivetran-dashboard/connectors
+      title: Fivetran Connectors
+      type: getting-started
+spec:
+  owner: platform

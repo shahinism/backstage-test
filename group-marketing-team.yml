@@ -1,0 +1,36 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  title: Marketing North America
+  name: marketing-na
+  description: Marketing team, located and operates in north America areah.
+spec:
+  type: team
+  profile:
+    displayName: Marketing North America
+    email: marketing-na@bt.org
+    picture: https://api.dicebear.com/5.x/initials/svg?seed=NA
+  parent: north-america
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: bram.elfrink
+spec:
+  profile:
+    displayName: Bram Elfrink
+    email: bram@bg.org
+    picture: https://api.dicebear.com/5.x/adventurer-neutral/svg?seed=Sam
+  memberOf: [marketing-na]
+
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: andrea.callarelli
+spec:
+  profile:
+    displayName: Andrea Callarelli
+    email: andrea@bt.org
+    picture: https://api.dicebear.com/5.x/adventurer-neutral/svg?seed=Charlie
+  memberOf: [marketing-na]

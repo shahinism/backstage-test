@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  title: Confluent Kafka
+  name: confluent-kafka
+  description: Main data integration layer, sharing data across the organization.
+  tags:
+    - data-mesh
+  links:
+    - url: https://docs.confluent.io/platform/current/platform-quickstart.html
+      title: Quick Start for Confluent Platform
+      type: getting-started
+    - url: https://docs.confluent.io/5.5.0/quickstart/ce-quickstart.html
+      title: Confluent Platform Quick Start (Local)
+      type: getting-started
+spec:
+  owner: platform
