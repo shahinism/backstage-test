@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mulesoft-integration
+  description: Consume data from Kafka topic and publish it into Salesforce.
+  tags:
+    - python
+spec:
+  lifecycle: production
+  owner: marketing-na
+  system: salesforce-customers

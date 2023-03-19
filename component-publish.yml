@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: customer-publish
+  description: Published processed data to Kafka.
+  tags:
+    - python
+spec:
+  type: glue-job
+  lifecycle: production
+  owner: marketing-na
+  system: salesforce-customers

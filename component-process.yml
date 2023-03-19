@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: customer-enrichment
+  description: Enrich customer data consumed from Salesforce using Fivetran.
+  tags:
+    - python
+spec:
+  type: glue-job
+  lifecycle: production
+  owner: marketing-na
+  system: salesforce-customers
