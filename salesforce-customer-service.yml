@@ -6,6 +6,10 @@ metadata:
   tags:
     - data-mesh
     - salesforce
+  links:
+    - url: https://trailhead.salesforce.com/content/learn/modules/lex_salesforce_basics/lex_salesforce_basics_getting_started
+      title: Get Started with Salesfoce
+      type: getting-started
 spec:
   domain: marketing
   owner: north-america
