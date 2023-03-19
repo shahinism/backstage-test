@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: demo-locations
+  description: A collection of all Backstage components
+spec:
+  targets:
+    - component-ingest.yml
+    - component-mulesoft-integration.yml
+    - component-process.yml
+    - component-publish.yml
+    - domain-marketing.yml
+    - group-marketing-team.yml
+    - group-platform-team.yml
+    - system-confluent-kafka.yml
+    - system-fivetran.yml
+    - system-salesforce-customers.yml
