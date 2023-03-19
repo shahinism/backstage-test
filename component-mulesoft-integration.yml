@@ -1,6 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  title: Mulesoft Integration
   name: mulesoft-integration
   description: Consume data from Kafka topic and publish it into Salesforce.
   tags:

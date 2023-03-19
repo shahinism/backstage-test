@@ -1,6 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  title: Customer Publish
   name: customer-publish
   description: Published processed data to Kafka.
   tags:

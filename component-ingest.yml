@@ -1,7 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: fivetran-extra
+  title: Fivetran Extract
+  name: fivetran-extract
   description: Extract data from S3 storage used by Fivetran
   tags:
     - python
