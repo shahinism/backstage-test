@@ -23,4 +23,4 @@ spec:
   owner: salesforce
   system: salesforce-customers
   definition:
-    $text: https://resources.docs.salesforce.com/rel1/doc/en-us/static/misc/iot-connect-api-swagger-42.0.yaml
+    $text: https://github.com/shahinism/backstage-test/blob/master/salesforce-swagger-42.0.yaml
