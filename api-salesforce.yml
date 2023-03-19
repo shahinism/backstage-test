@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  title: Salesforce API
+  name: salesforce-api
+  description: The Salesforce web API
+  tags:
+    - salesforce
+    - rest
+  links:
+    - url: https://developer.salesforce.com/docs/atlas.en-us.api_iot.meta/api_iot/intro_swagger_file.htm
+      title: Salesforce Open API specification
+      type: getting-started
+    - url: https://swagger.io/docs/
+      title: Swagger and OpenAPI Documentation
+    - url: https://swagger.io/swagger-ui/
+      title: Swagger UI
+    - url: https://swagger.io/swagger-editor/
+      title: Swagger Editor
+spec:
+  type: openapi
+  lifecycle: production
+  owner: salesforce
+  system: salesforce-customers
+  definition:
+    $text: https://resources.docs.salesforce.com/rel1/doc/en-us/static/misc/iot-connect-api-swagger-42.0.yaml

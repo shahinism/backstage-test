@@ -15,3 +15,4 @@ spec:
     - system-confluent-kafka.yml
     - system-fivetran.yml
     - system-salesforce-customers.yml
+    - api-salesforce.yml

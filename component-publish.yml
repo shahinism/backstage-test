@@ -11,3 +11,6 @@ spec:
   lifecycle: production
   owner: marketing-na
   system: salesforce-customers
+  dependsOn:
+    - customer-enrichment
+    - confluent-kafka
