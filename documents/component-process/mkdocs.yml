@@ -2,8 +2,5 @@ site_name: 'component-process'
 nav:
   - Home: index.md
 
-# disabled so backstage successfully renders
-docs_dir: '.'
-
 plugins:
   - techdocs-core
