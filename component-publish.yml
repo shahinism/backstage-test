@@ -12,5 +12,5 @@ spec:
   owner: marketing-na
   system: salesforce-customers
   dependsOn:
-    - customer-enrichment
-    - confluent-kafka
+    - component:customer-enrichment
+    - system:confluent-kafka

@@ -12,6 +12,6 @@ spec:
   owner: marketing-na
   system: salesforce-customers
   dependsOn:
-    - customer-publish
-    - confluent-kafka
-    - salesforce-api
+    - component:customer-publish
+    - component:confluent-kafka
+    - api:salesforce-api
