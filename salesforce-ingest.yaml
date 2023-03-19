@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ingest"
+  namespace: "salesforce-customer"
+  title: "Salesforce Customer Ingest"
+  description: "This service consumes the uploaded data from Fivetran/HVR to S3 and puts them on the pipeline."
+  lables:
+    domain: marketing
+    region: north-america
+    contact-person: john@bt.com
+  tags:
+    - python
+  links:
+    - url: https://www.fivetran.com/blog/fivetran-protocol
+      title: Introduction to Fivetran
+      type: introduction
+    - url: https://aws.amazon.com/glue/getting-started/
+      title: Getting started with AWS Glue
+      type: getting-started
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: production

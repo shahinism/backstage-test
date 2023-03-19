@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: developer-portal
+  description: One place stop for the developers to get information from.
+spec:
+  owner: platform-team
+  domain: general
