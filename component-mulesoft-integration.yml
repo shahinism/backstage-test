@@ -6,6 +6,7 @@ metadata:
   tags:
     - python
 spec:
+  type: on-premise
   lifecycle: production
   owner: marketing-na
   system: salesforce-customers

@@ -22,7 +22,6 @@ spec:
     email: shayegan@bg.org
     picture: https://api.dicebear.com/5.x/adventurer-neutral/svg?seed=Sam
   memberOf: [platform]
-
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
