@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: salesforce-customers
+  description: Expose Salesforce custoemr data into data mesh platform.
+  tags:
+    - data-mesh
+    - salesforce
+spec:
+  domain: marketing
+  owner: north-america
