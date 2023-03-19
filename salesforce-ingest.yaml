@@ -20,5 +20,6 @@ metadata:
       type: getting-started
 spec:
   type: service
-  owner: user:guest
+  owner: marketing-north-america
   lifecycle: production
+  domain: marketing

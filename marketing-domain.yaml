@@ -5,9 +5,3 @@ metadata:
   description: This domain is resposible for handling marketing services in the organization.
 spec:
   owner: marketing-north-america
-relations:
-  - target:
-      kind: Component
-      namespace: salesforce-customer
-      name: ingest
-    type: ownerOf
